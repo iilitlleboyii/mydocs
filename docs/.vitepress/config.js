@@ -25,9 +25,10 @@ export default defineConfig({
       { text: '🎈VitePress入门教程', link: '/vitepress/', activeMatch: '/vitepress/' },
       { text: '⚡Vue项目搭建教程', link: '/guide/', activeMatch: '/guide/' },
       { text: '🚩Vue优化', link: '/vue/', activeMatch: '/vue/' },
-      { text: '🔥实践工具', link: '/sundry/tools/', activeMatch: '/sundry/tolls/' },
+      { text: '🔥实践工具', link: '/sundry/tools/', activeMatch: '/sundry/tools/' },
       { text: '🛒Nodejs', link: '/nodejs/Assert', activeMatch: '/nodejs/' },
       { text: '🐋Django', link: '/django/', activeMatch: '/django/' },
+      { text: '🌊SpringBoot', link: '/springboot/base', activeMatch: '/springboot/' },
       {
         text: '🚀外链',
         link: 'https://www.baidu.com',
@@ -171,7 +172,7 @@ export default defineConfig({
     },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Arcuchi Co., Ltd.'
+      copyright: 'Copyright © 2019-present Anonymous Co., Ltd.'
     }
   },
 
